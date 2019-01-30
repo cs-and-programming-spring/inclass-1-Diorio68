@@ -66,6 +66,32 @@ int main()
 	cout << "The distance converted into kilometers is: " << kilometers << "\n\n";
 	cout << "Program has ended" << endl;
 
+	/************************************************************
+	* Name: Mark Diorio
+	* Email: diorio68@students.rowan.edu
+	*************************************************************
+	* Purpose:
+	*  This program calculates the circumference of a given radius.
+	*************************************************************/
+
+
+	//Display purpose of the program
+	cout << " *********************************************************************" << endl;
+	cout << " This program calculates the circumferecne of a given radius." << endl;
+	cout << " *********************************************************************\n\n";
+
+	//Get user input
+	cout << "Please input a radius: ";
+	cin >> radius;
+	cout << "\n";
+
+	//Compute area to PI*radius*radius
+	circumference = 2 * PI * radius;
+
+	//Display the area 
+	cout << "The circumference of the circle is: " << circumference << "\n\n";
+	cout << "Program has ended" << endl;
+
 	system("pause");
 
 	return 0;
