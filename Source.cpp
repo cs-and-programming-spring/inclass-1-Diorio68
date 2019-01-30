@@ -76,9 +76,9 @@ int main()
 
 
 	//Display purpose of the program
-	cout << " *********************************************************************" << endl;
+	cout << " ************************************************************" << endl;
 	cout << " This program calculates the circumferecne of a given radius." << endl;
-	cout << " *********************************************************************\n\n";
+	cout << " ************************************************************\n\n";
 
 	//Get user input
 	cout << "Please input a radius: ";
@@ -90,6 +90,40 @@ int main()
 
 	//Display the area 
 	cout << "The circumference of the circle is: " << circumference << "\n\n";
+	cout << "Program has ended" << endl;
+
+
+	/************************************************************
+	* Name: Mark Diorio
+	* Email: diorio68@students.rowan.edu
+	*************************************************************
+	* Purpose:
+	*  This program converts miles into meters, centimeters, and millimeters.
+	*************************************************************/
+
+	float meters, centimeters, millimeters;
+
+	//Display purpose of the program
+	cout << " ************************************************************" << endl;
+	cout << " This program converts miles into meters, centimeters, and millimeters." << endl;
+	cout << " ************************************************************\n\n";
+
+	//Get user input
+	cout << "Please input a distance in miles: ";
+	cin >> miles;
+	cout << "\n";
+
+	//Compute miles to meters
+	meters = miles * 1609.34;
+	//Compute miles to centimeters
+	centimeters = miles * 160934;
+	//Compute miles to millimeters
+	millimeters = miles * 1.609e+6;
+
+	//Display the area 
+	cout << "The miles in meters is: " << meters << "\n\n";
+	cout << "The miles in centimeters is: " << centimeters << "\n\n";
+	cout << "The miles in millimeters is: " << millimeters << "\n\n";
 	cout << "Program has ended" << endl;
 
 	system("pause");
