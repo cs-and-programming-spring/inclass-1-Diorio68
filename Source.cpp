@@ -66,27 +66,6 @@ int main()
 	cout << "The distance converted into kilometers is: " << kilometers << "\n\n";
 	cout << "Program has ended" << endl;
 
-	float miles, kilometers;
-
-	//Display purpose of the program
-	cout << " *********************************************************************" << endl;
-	cout << " This program calculates the circumference of a circle." << endl;
-	cout << " *********************************************************************\n\n";
-
-	//Get user input
-	cout << "Please input a distance in miles: ";
-	cin >> miles;
-	cout << "\n";
-
-	//Compute area to PI*radius*radius
-	kilometers = 1.60934 * miles;
-
-	//Display the area 
-	cout << "The distance you entered in miles was:" << miles << "\n\n";
-	cout << "The distance converted into kilometers is: " << kilometers << "\n\n";
-	cout << "Program has ended" << endl;
-
-
 	system("pause");
 
 	return 0;
