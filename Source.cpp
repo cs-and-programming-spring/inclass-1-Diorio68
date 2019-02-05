@@ -56,6 +56,29 @@ cout << "If it is " << Celsius << " degrees celsius then it is " << Farenheit <<
 	
 
 /***********************************************
+
+* Name: Mark Diorio
+
+* Email: diorio68@students.rowan.edu
+
+***********************************************
+
+* Purpose:
+
+*  This program prints out Mark Diorio's first initial M made by a 6x6 grid of asteriks(*).
+
+***********************************************/
+
+    cout << "Mark Diorio's first intiial is M. This is an M made by a 6x6 grid of asteriks (*) below.\n\n";
+
+    cout << "*    *" << endl;
+    cout << "**  **" << endl;
+    cout << "* ** *" << endl;
+    cout << "*    *" << endl;
+    cout << "*    *" << endl;
+    cout << "*    *" << endl;
+	
+/***********************************************
 * Name: Mark Diorio
 * Email: diorio68@students.rowan.edu
 ***********************************************
