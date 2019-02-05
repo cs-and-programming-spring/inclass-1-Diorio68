@@ -34,9 +34,61 @@ int main()
 	
 	//Display the area 
 	cout << " The area is = " << area << "\n\n";
-	cout << "Program has ended"<<endl;
 
+    /***********************************************
+* Name: Mark Diorio
+* Email: diorio68@students.rowan.edu
+***********************************************
+* Purpose:
+*  This program calculates a given degree in Celsius and converts it to Farenheit.
+***********************************************/
+    
+	cout << " *********************************************" << endl;
+	cout << " This program converts Celsius to Farenheit." << endl;
+	cout << " *********************************************\n\n";
 
+	
+float Celsius, Farenheit;
+cout << "What degrees is it in your area right now in Celsius?\n";
+cin >>  Celsius;
+Farenheit = 1.8 * Celsius + 32;
+cout << "If it is " << Celsius << " degrees celsius then it is " << Farenheit << " degrees Farenheit in your area as well.\n";
+	
+
+/***********************************************
+* Name: Mark Diorio
+* Email: diorio68@students.rowan.edu
+***********************************************
+* Purpose:
+*  This program takes a person's age in years and converts it to months, days, hous, minutes, and seconds.
+***********************************************/
+float years, months, days, hours, minutes, seconds;
+
+	//Display purpose of the program
+	cout << " ********************************************************************************************************" << endl;
+	cout << " This program takes a person's age in years and converts it to months, days, hours, minutes, and seconds." << endl;
+	cout << " ********************************************************************************************************\n\n";
+
+	//Get user input
+	cout << "Please input your age in years: \n";
+	cin >> years;
+	cout << "\n";
+
+	//Compute years into months, days, hours, minutes, and seconds
+	months = years * 12;
+	days = years * 365.25;
+	hours = days * 24;
+	minutes = hours * 60;
+	seconds = minutes * 60;
+
+	//Display the area 
+	cout << "Your age in years is: " << years << "\n\n";
+	cout << "Your age in months is: " << months << "\n\n";
+	cout << "Your age in days is: " << days << "\n\n";
+	cout << "Your age in hours is: " << hours << "\n\n";
+	cout << "Your age in minutes is: " << minutes << "\n\n";
+	cout << "Your age in seconds is: " << seconds << "\n\n";
+	
 	/************************************************************
 	* Name: Mark Diorio
 	* Email: diorio68@students.rowan.edu
@@ -64,7 +116,6 @@ int main()
 	//Display the area 
 	cout << "The distance you entered in miles was:" << miles << "\n\n";
 	cout << "The distance converted into kilometers is: " << kilometers << "\n\n";
-	cout << "Program has ended" << endl;
 
 	/************************************************************
 	* Name: Mark Diorio
